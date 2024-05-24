@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone Paper Scissor game</title>
+    <link rel="stylesheet" href="sps.css"/>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navdiv">
+            <ul>
+                <li><a href="#">Home</a></li>
+            </ul>
+           <div class="centre">
+            <h1 class="heading" style="text-align: center; margin-left: 100px; font-size: 35px;"><i>Rock Paper Scissor Game</i></h1>
+            <img src="https://images.squarespace-cdn.com/content/v1/618037d25050485b61e7f62d/271f0feb-c872-4eb6-b918-3e9c8e38443c/Rock+Paper+Scissors+Logo.png">
+           </div>
+            <ul>
+                <li><a href="#">Contact Us</a></li>
+                <li><button>Theme</button></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="choices">
+        <div class="choice" id="rock">
+            <img src="https://goodday451999.github.io/Rock-Paper-Scissors-Neo/images/stone.png">
+        </div>
+        <div class="choice" id="paper">
+            <img src="https://goodday451999.github.io/Rock-Paper-Scissors-Neo/images/paper.png">
+        </div>
+        <div class="choice" id="scissors">
+            <img src="https://goodday451999.github.io/Rock-Paper-Scissors-Neo/images/scissors.png">
+        </div>
+    </div>
+    <div class="scoreboard">
+        <div class="uscore">
+            <p id="userscore">0</p>
+            <p>You</p>
+        </div>
+        <div class="cscore">
+            <p id="compscore">0</p>
+            <p>Comp</p>
+        </div>
+    </div>
+    <div id="comp">
+        <p id="compres"></p>
+    </div>
+    <div class="result">
+        <p id="msg">Play Your Move</p>
+    </div>
+    <script src="sps.js"></script>
+</body>
+</html>
